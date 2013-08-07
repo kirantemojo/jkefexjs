@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+	<head>
+		<title>History API</title>
+	</head>
+	<link rel="stylesheet" href="css/history.css" />
+	<body>
+	<center>
+		<div>
+			<ul>
+				<li><a href="1.jpg" data-state="Jhn" title="John" url="1.jpg">Johnson John</a></li>|
+				<li><a href="2.jpg" data-state="Mich" title="Micky" url="2.jpg">Michael John</a></li>|
+				<li><a href="3.jpg" data-state="Cris" title="Crissy" url="3.jpg">Crissy John</a></li>
+			</ul>
+		</div>
+		<div id="content"></div>
+	</center>
+		<script type="text/javascript" src="js/async.js" async></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script type="text/javascript" src="lib/jKefex.js"></script>
+		<script id="template" type="template">
+			<h2>{{title}}</h2>
+			<img src="{{src}}"/>
+		</script>
+		<script type="text/javascript">
+			$(function(){
+				/*
+				var HistoryView = {
+					init:function(){
+						var self = this;
+						$('div>ul>li').on('click','a',function(e){
+							e.preventDefault();
+							self.templ(this);
+							self.updateHistroy(this);
+						});
+					},
+					templ:function(temp){
+						var template = $('#template').html().replace(/{{title}}/g,temp.title).replace(/{{src}}/g,temp.href);
+						$('#content').html(template);
+					},
+					updateHistroy:function(data){
+						var datastore = { "tit": data.dataset.state ,"title": data.title ,"href": data.href};
+						history.pushState(datastore, data.title, data.href);
+					},
+					handleState:function(){
+						var self = this;
+						$(window).bind('popstate',function(e){
+							if(e.originalEvent.state)
+							{
+								self.templ(e.originalEvent.state);	
+							}
+						});
+					}
+				};
+				*/
+				jKefex.HistoryView.init();
+				jKefex.HistoryView.handleState();
+			});
+		</script>
+	</body>
+</html>

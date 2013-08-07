@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" href="css/canvaspattern.css" />
+    <body>
+		<h2>JKefex Canvas</h2>
+		<canvas id="myCanvas" width="920" height="450">This Browser Doesn't Support Canvas</canvas>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+		<script src="lib/jKefex.js"></script>
+		<script>
+		$(function(){
+			jKefex.canvasWallPlugin.createCanvas();
+			//jKefex.canvasWallPlugin.init();
+			jKefex.canvasWallPlugin.createPattern("repeat","images/dark_matter.png");
+			//$(window).resize(function(){
+				//jKefex.canvasWallPlugin.init();
+				//jKefex.canvasWallPlugin.createPattern("repeat","images/dark_matter.png");
+			//});
+			jKefex.canvasWallPlugin.update();
+			$('#ajaxload').on('click','.close',function(){
+				if(jKefex.canvasWallPlugin)
+				{
+					jKefex.canvasWallPlugin.removeevents();
+				}
+			});
+		})
+		</script>
+    </body>
+</html>

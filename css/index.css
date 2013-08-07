@@ -1,0 +1,55 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	background:url(../img/canvastexture.jpg) repeat-x;
+	position:absolute;
+}
+#container
+{
+	width:1280px;
+	height:768px;
+	position:relative;
+	width:100%;
+	height:100%;
+}
+#logo
+{
+	position:absolute;
+	top:40%;
+	left:40%;
+	width:246px;
+	height:65px;
+}
+#logo span
+{
+	font-weight:bold;
+	font-family:monotype corsiva;
+	color:#fff;
+	font-size:18px;
+	text-align:center;
+}
+#sidebarleft,#sidebarright
+{
+	position:fixed;
+	width:38px;
+	height:100%;
+	background-color:skyblue;
+	opacity:0.5;
+	z-index:10;
+}
+#sidebarleft:hover,#sidebarright:hover
+{
+	opacity:0.8;
+}
+#sidebarleft
+{
+	left:0;
+}
+#sidebarright
+{
+	right:0;
+}

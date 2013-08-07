@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Navigator Usermedia</title>
+	</head>
+	<link rel="stylesheet" href="css/navigator.css" />
+	<body>
+		<center>
+			<input type="button" id="snapPhoto" value="Take a Picture"/>
+			<input type="button" id="CloseWebcam" value="Close WebCam"/>
+			<br />
+			<video id="webcamera" width="500" height="400"></video>
+			<canvas id="captureCanvas" style="display:none;"></canvas>
+			<img id="canvasImage"/>
+		</center>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="lib/jKefex.js"></script>
+		<script type="text/javascript">
+		$(function(){
+				jKefex.navagatorUserMedia.container = {"element":"#webcamera"};
+				jKefex.navagatorUserMedia.navClick = function(){
+					jKefex.navagatorUserMedia.takeSnapShot('#captureCanvas','#canvasImage',200,160);
+				};
+				jKefex.navagatorUserMedia.init("snapPhoto",true,false,"CloseWebcam");
+				
+				$('#ajaxload').on('click','.close',function(){
+						jKefex.navagatorUserMedia.closeStream();
+				});
+		});
+		</script>
+	</body>
+</html>

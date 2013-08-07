@@ -1,0 +1,27 @@
+#sub-top1
+{
+	width:100px;
+	margin:80px 40%;
+}
+#sub-top2
+{
+	width:100px;
+	margin:80px 40%;
+}
+.rot1
+{	
+	position:relative;
+	width:200px;
+	height:100px;
+	background-color:skyblue;
+}
+.over
+{
+	background-color:grey;
+	border:2px dashed #000;
+}
+.success
+{
+	background-color:grey;
+	border:2px solid #000;
+}

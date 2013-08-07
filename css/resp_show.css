@@ -1,0 +1,53 @@
+*{
+	margin:0;
+	padding:0;
+}
+#contain
+{
+	width:100%;
+}
+#contain .next
+{
+	float:right;
+	width:35px;
+	height:111px;
+	position: relative;
+	z-index: 1200;
+	margin-right:-9px;
+}
+#contain .prev
+{
+	float:left;
+	width:35px;
+	height:111px;
+	position: relative;
+	z-index: 1200;
+	margin-left:-9px;
+}
+div#wrapper
+{
+	width:1280px;
+	left:40px;
+	right:40px;
+	height:111px;
+	position:absolute;
+	text-align:justify;
+	margin-top: 10px;
+	overflow:hidden;
+}
+div#innerWrapper
+{
+	height:111px;
+}
+div.cont
+{
+	position:relative;
+	float:left;
+	width:1274px;
+}
+div#options img
+{
+	position:absolute;
+	width:118px;
+	height:39px;
+}

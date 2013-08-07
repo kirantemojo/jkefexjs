@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>Workers</title>
+	</head>
+	<body>
+		<h2 id="elem"></h2>
+		<button id="workers">Start the Worker</button>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="lib/jKefex.js"></script>
+		<script type="text/javascript">
+		$(function(){
+				$('#workers').click(function(){
+						jKefex.workers("js/workerDemo13.js","#elem");
+						$(this).text('Worker Received Data');
+				});
+		});
+		</script>
+	</body>
+</html>

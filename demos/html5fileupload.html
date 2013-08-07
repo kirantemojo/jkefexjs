@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>HTML5 File API</title>
+    <link rel="stylesheet" href="css/progress.css" />
+</head>
+<body>
+	<div id="main">
+		<h1>Upload Your Images</h1>
+		<h6>Upload Large file to see Progress</h6>
+    	<input type="file" name="images" id="images" multiple />
+  	<div id="upload_progress"></div>
+	
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="lib/jKefex.js"></script>
+  <script type="text/javascript">
+	jKefex.formdatacore("upload.php");
+  </script>
+</body>
+</html>

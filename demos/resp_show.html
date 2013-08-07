@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>Responsive SlideShow</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="css/resp_show.css" />
+    </head>
+    <body>
+		<div id="contain">
+			<div class="prev"><img src="img/mobBanLft.png" alt="" /></div>
+				<div id="wrapper">
+					<div id="innerWrapper">
+						<div class="cont"><h1>jKefex</h1></div>
+						<div class="cont"><h1>Core JS</h1></div>
+						<div class="cont"><h1>JQuery</h1></div>
+						<div class="cont"><h1>Crockford</h1></div>
+					</div>
+				</div>
+			<div class="next"><img src="img/mobBanRit.png" alt="" /></div>
+		</div>
+		<br /><br /><br /><br /><br /><br /><br /><br />
+		<h2>jKefex Slide Show</h2>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="lib/jKefex.js"></script>
+		<script type="text/javascript">
+		(function($){
+			$.fn.doesExist = function(){
+				return $(this).length > 0;
+			};
+		})(jQuery);
+		$(function(){
+			$(jKefex.responseSlideshow('#contain .next','#contain .prev','div#wrapper','div#innerWrapper','div.cont',true));
+		});
+		</script>
+    </body>
+</html>

@@ -1,0 +1,146 @@
+#overlayed
+{
+	display:none;
+}
+.simple_overlay {
+ 
+    /* must be initially hidden */
+    display:none;
+ 
+    /* place overlay on top of other elements */
+    z-index:10000;
+ 
+    /* styling */
+    background-color:#333;
+ 
+    width:675px;
+    min-height:200px;
+    border:1px solid #666;
+ 
+    /* CSS3 styling for latest browsers */
+    -moz-box-shadow:0 0 90px 5px #000;
+    -webkit-box-shadow: 0 0 90px #000;
+}
+ 
+/* close button positioned on upper right corner */
+.simple_overlay .close {
+    background-image:url(../images/close.png);
+    position:absolute;
+    right:-15px;
+    top:-15px;
+    cursor:pointer;
+    height:35px;
+    width:35px;
+}
+
+.details {
+  position:absolute;
+  top:15px;
+  right:15px;
+  font-size:11px;
+  color:#fff;
+  width:150px;
+  }
+ 
+  .details h3 {
+  color:#aba;
+  font-size:15px;
+  }
+  
+#mies1,#mies2
+{
+	padding-top:15px;
+	width:540px;
+	height:340px;
+}
+#mies3
+{
+	padding-top:15px;
+	width:980px;
+	height:600px;
+}
+#mies4
+{
+	padding-top:15px;
+	width:650px;
+	height:500px;
+}
+h6[rel*=mies],.close
+{
+	cursor:pointer;
+}
+.vid
+{
+	width:100%;
+	height:100%;
+}
+#ajaxload
+{
+	width:1200px;
+	height:100%;
+	background:url('../images/pat.png') repeat;
+	position:fixed;
+	top:0;
+	bottom:0;
+	z-index:100;
+	display:none;
+}
+#ajaxload .close
+{
+	position:relative;
+	left: 1050px;
+	top: 62px;
+	z-index: 101;
+	font-weight: bold;
+	background-color: #ccc;
+	color: #000;
+	background:url('../images/close_1.png') no-repeat;
+}
+span.close
+{
+	width:24px;
+	height:24px;
+	display:block;
+}
+#ajaxload #contentpage
+{
+	padding:8px;
+	padding-top:60px;
+	background:url('../images/gridme.png') repeat;
+	width:960px;
+	height:600px;
+	position:relative;
+	top:20px;
+	margin:0 auto;
+	-webkit-border-bottom-right-radius: 40px;
+	-webkit-border-bottom-left-radius: 40px;
+	-moz-border-radius-bottomright: 40px;
+	-moz-border-radius-bottomleft: 40px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	border:1px solid #000;
+	display:none;
+	overflow:hidden;
+	color:#000;
+	font-weight:bold;
+}
+#ajaxload form input[type=text]
+{
+	padding:0;
+	border-radius:2px;
+}
+#overlayed
+{
+	padding:8px;
+	padding-top:60px;
+	width:960px;
+	height:600px;
+	position:relative;
+	top:20px;
+	margin:0 auto;
+}
+#fork
+{
+	text-decoration:none;
+	color:#000;
+}
