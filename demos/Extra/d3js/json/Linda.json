@@ -1,0 +1,143 @@
+{
+	"PersonDataList": [
+		{
+			"PersonName": "Linda",
+			"relationlist": [
+				{
+					"source": "Addy",
+					"target": "Linda",
+					"linkId": "9"
+				},
+				{
+					"source": "Linda",
+					"target": "Addy",
+					"linkId": "10"
+				},
+				{
+					"source": "Bailey",
+					"target": "Linda",
+					"linkId": "11"
+				}
+			],
+			"relationDatalist": [
+				{
+					"linkid": "9",
+					"imgPath": "images/person1.png",
+					"relationColor": "#555555",
+					"relationType": "has KOL Relation1",
+					"strength": "Strength 1",
+					"tabsData": [
+						{
+							"tabBodyText": "Association: 1"
+						},
+						{
+							"tabBodyText": "Top Connecting Objects: 1 European Medicines Agency (EMA), Committee for Medicinal Products for Human Use (CHMP)"
+						},
+						{
+							"tabBodyText": "Aggregated Link Type 1 Market Access - Market Access"
+						}
+					],
+					"name": "Addy",
+					"tabsData1": [
+						{
+							"prime": "Addy role"
+						},
+						{
+							"prime": "primary affliation"
+						},
+						{
+							"prime": "fo"
+						},
+						{
+							"prime": "c"
+						},
+						{
+							"prime": "1"
+						},
+						{
+							"prime": "f"
+						}
+					]
+				},
+				{
+					"linkid": "10",
+					"imgPath": "images/person2.png",
+					"relationColor": "#555555",
+					"relationType": "has KOL Relation2",
+					"strength": "Strength 2",
+					"tabsData": [
+						{
+							"tabBodyText": "Association: 2"
+						},
+						{
+							"tabBodyText": "Top Connecting Objects: 2 European Medicines Agency (EMA), Committee for Medicinal Products for Human Use (CHMP)"
+						},
+						{
+							"tabBodyText": "Aggregated Link Type 2 Market Access - Market Access"
+						}
+					],
+					"name": "Linda",
+					"tabsData1": [
+						{
+							"prime": "Linda role"
+						},
+						{
+							"prime": "primary affliation"
+						},
+						{
+							"prime": "fo"
+						},
+						{
+							"prime": "c"
+						},
+						{
+							"prime": "1"
+						},
+						{
+							"prime": "f"
+						}
+					]
+				},
+				{
+					"linkid": "11",
+					"imgPath": "images/person3.png",
+					"relationColor": "#555555",
+					"relationType": "has KOL Relation3",
+					"strength": "Strength 3",
+					"tabsData": [
+						{
+							"tabBodyText": "Association: 3"
+						},
+						{
+							"tabBodyText": "Top Connecting Objects: 3 European Medicines Agency (EMA), Committee for Medicinal Products for Human Use (CHMP)"
+						},
+						{
+							"tabBodyText": "Aggregated Link Type 3 Market Access - Market Access"
+						}
+					],
+					"name": "Bailey",
+					"tabsData1": [
+						{
+							"prime": "Bailey role"
+						},
+						{
+							"prime": "primary affliation"
+						},
+						{
+							"prime": "fo"
+						},
+						{
+							"prime": "c"
+						},
+						{
+							"prime": "f"
+						},
+						{
+							"prime": "1"
+						}
+					]
+				}
+			]
+		}
+	]
+}

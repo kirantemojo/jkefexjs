@@ -1,0 +1,52 @@
+.msel{
+	width: 133px;
+	height:123px;
+	margin:0 auto;
+}
+.msel .selectbox {
+	width: 135px;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 0;
+	-webkit-border-bottom-right-radius: 0;
+	-moz-border-radius-bottomleft: 0;
+	-moz-border-radius-bottomright: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.msel .listopt{
+	width: 135px;
+	height: 95px;
+	border:1px solid #ccc;
+	overflow-y:scroll;
+	text-align: left;
+}
+.msel .listopt ul{
+	height:100px;
+}
+.msel .listopt ul li:hover {
+	background:#ccc;
+	cursor:pointer;
+}
+.msel .listopt ul li label{
+	margin:6px;
+}
+.msel .listopt ul li input{
+	margin: 6px;
+	margin-top: 5px;
+}
+.msel .btn {
+	padding:3px 5px;
+}
+.msel .listopt ul li span {
+	padding-top:8px;
+}
+.msel label {
+	display:inline !important;
+	font-weight: normal !important;
+	cursor: pointer; 
+}

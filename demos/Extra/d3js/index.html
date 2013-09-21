@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>D3 JS Force Layout Example</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <div class="wrapper">
+                <input id="overlayCheck" type="checkbox" onclick="initialModule.toggleOverlay(this)" /> Overlay
+                <div class="connection-popup pop-close">
+                    <a href="javascript:void(0);" class="popup-cls"> X </a>
+                    <h2 class="popup-header">Heading</h2>
+                    <div class="popup-body">
+                        <h2 class="strength">Strength</h2>
+                        <h2>Project data:</h2>
+                        <div class="tab-container">
+                            <a id="tab1" href="javascript:void(0);" class="tab-button active" onclick="initialModule.toggleTab(this)">Connection Details</a>
+                            <a id="tab2" href="javascript:void(0);" class="tab-button" onclick="initialModule.toggleTab(this)">Connecting Objects</a>
+                            <a id="tab3" href="javascript:void(0);" class="tab-button" onclick="initialModule.toggleTab(this)">Link Category</a>
+                        </div>
+                        <div class="tab-data-container">
+                            <div id="tabData_tab1" class="tab-body active"></div>
+                            <div id="tabData_tab2" class="tab-body"></div>
+                            <div id="tabData_tab3" class="tab-body"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="person-det-popup pop-close">
+                    <a href="javascript:void(0);" class="popup-cls"> X </a>
+                    <h2 class="popup-header1" onclick="initialModule.getPersonDetails(this)" data-personid="">Person</h2>
+                    
+                    <div class="popup-body1">
+                        <h2>Base data:</h2>
+                        <div class="tab-container2">
+                         <a id="pop1tab1" href="javascript:void(0);" class="tab-button1 active" onclick="initialModule.popup1toggleTab(this)">General</a>
+                         <a id="pop1tab2" href="javascript:void(0);" class="tab-button1 " onclick="initialModule.popup1toggleTab(this)">Primary Affliation</a>
+                        </div>                          
+                        <div class="tab-data-container1">
+                            <div id="tabData_pop1tab1" class="tab-body1 active"></div>
+                            <div id="tabData_pop1tab2" class="tab-body1"></div>
+                        </div>
+                        </br>
+                        <h2>Projected data:</h2>
+                        <div class="tab-container1">
+                            <a id="pop1tab3" href="javascript:void(0);" class="tab-button1" onclick="initialModule.popup1toggleTab(this)">Focus Areas</a>
+                            <a id="pop1tab4" href="javascript:void(0);" class="tab-button1  " onclick="initialModule.popup1toggleTab(this)">Collaboration index</a>
+                            <a id="pop1tab5" href="javascript:void(0);" class="tab-button1 " onclick="initialModule.popup1toggleTab(this)">Indication relevance</a>
+                            <a id="pop1tab6" href="javascript:void(0);" class="tab-button1 " onclick="initialModule.popup1toggleTab(this)">Focus areas</a>
+                        </div>
+                        <div class="tab-data-container1">
+                            <div id="tabData_pop1tab3" class="tab-body1"></div>
+                            <div id="tabData_pop1tab4" class="tab-body1"></div>
+                            <div id="tabData_pop1tab5" class="tab-body1"></div>
+                            <div id="tabData_pop1tab6" class="tab-body1"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="slider"></div>
+                <div class="svg-holder"></div>
+                <input id="backButton" type="button" onclick="initialModule.back()" value="Back" /> 
+            </div>
+        </div>
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+        <script type="text/javascript" src="js/d3.v3.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>

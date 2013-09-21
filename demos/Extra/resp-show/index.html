@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+	<head>
+	<title>jKefex JS</title>
+	<meta property="og:image" content="http://kiranml1.github.io/jkefexjs/images/me.jpg"/>
+	<meta http-equiv="content-type" contjkefexjs/images/me.jpgent="text/html; charset=utf-8" />
+	<meta name="application-name" content="jKefexJS - (Javascript Library) Kiran Kumar"/>
+	<meta name="description" content="Amruthaluri Kiran Kumar Portfolio - Front End Developer - jKefex JS Creator" />
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript,jkefexjs,jkefex,kefex,js,kiranm11,kiran,kiran kumar, amruthaluri,d3,d3js,angular,angularjs,sproutcore"/>
+	<meta name="author" content="Kiran Kumar">
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+	<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
+	<link rel="stylesheet" href="../../css/normalize.css">
+	<link rel="stylesheet" href="../../css/foundation.css">
+	<link rel="stylesheet" href="../../css/templatedemo.css">
+</head>
+<body>
+<div id="contain" class="resp_show">
+	<div class="prev"><img src="img/mobBanLft.png" alt="" /></div>
+		<div id="wrapper">
+			<div id="innerWrapper">
+				<div class="cont"><h1>jKefex</h1></div>
+				<div class="cont"><h1>Core JS</h1></div>
+				<div class="cont"><h1>JQuery</h1></div>
+				<div class="cont"><h1>Crockford</h1></div>
+			</div>
+		</div>
+	<div class="next"><img src="img/mobBanRit.png" alt="" /></div>
+</div>
+<br /><br /><br /><br /><br /><br /><br /><br />
+<h2>jKefex Slide Show</h2>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="../../lib/jKefex.js"></script>
+<script type="text/javascript">
+(function($){
+	$.fn.doesExist = function(){
+		return $(this).length > 0;
+	};
+})(jQuery);
+$(function(){
+	$(jKefex.responseSlideshow('#contain .next','#contain .prev','div#wrapper','div#innerWrapper','div.cont',true));
+});
+</script>
+</body>
+</html>

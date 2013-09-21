@@ -1,0 +1,182 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #adadad;
+}
+#wrapper {
+    width:960px;
+    height:600px;
+    position: relative;
+    margin: 0 auto;
+}
+a, a:hover, a:active {
+    color: #2288BB;
+    text-decoration: none;
+}
+svg {
+    border: 1px dashed #000;
+}
+.wrapper {
+    color: #666;
+    font-family: Helvetica, Arial;
+    position: relative;
+    margin: 15px auto;
+    width: 960px;
+}
+.link {
+    cursor: pointer;
+    fill: none;
+    stroke: #666;
+    stroke-width: 2px;
+}
+text {
+    font: 12px sans-serif;
+    pointer-events: none;
+}
+
+.connection-popup {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: none;
+    width: 350px;
+    height:250px;
+    position: absolute;
+    border-radius: 5px;
+    z-index: 100;
+}
+.connection-popup .popup-cls {
+    color: #444;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.connection-popup .popup-header {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin: 0;
+}
+.connection-popup .popup-body {
+    padding: 10px;
+}
+.connection-popup .popup-body h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.tab-container {
+    border-bottom: 1px solid #ccc;
+    display: table;
+    width: 100%;
+}
+.tab-container .tab-button {
+    border: 1px solid #ccc;
+    border-bottom: 0 none;
+    display: table-cell;
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+
+    border-radius: 5px 5px 0 0;
+}
+.tab-container .tab-button.active {
+    background-color: #2288BB;
+    color: #fff;
+}
+.connection-popup .tab-body.active {
+    display: block;
+}
+.connection-popup .tab-body {
+    border: 1px solid #ccc;
+    border-top: 0 none;
+    display: none;
+    font-size: 12px;
+    padding: 10px;
+}
+#slider, .svg-holder {
+    margin: 10px 03px;
+	 width: 262px;
+}
+.person-det-popup {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: none;
+    width: 350px;
+	height:350px;
+    position: absolute;
+    border-radius: 5px;
+    z-index: 100;
+}
+.person-det-popup .popup-cls {
+   color: #444;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.person-det-popup .popup-header1 {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin: 0;
+}
+.person-det-popup .popup-body1{
+    padding: 10px;
+}
+.person-det-popup.popup-body h2 {
+    font-size: 16px;
+    font-weight: bold;   
+}
+.tab-container1 {
+    border-bottom: 1px solid #ccc;
+    display: table;
+    width: 100%;
+}
+.tab-container1 .tab-button1 {
+    border: 1px solid #ccc;
+    border-bottom: 0 none;
+    display: table-cell;
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+.tab-container1  .tab-button1.active {
+    background-color: #2288BB;
+	border-bottom: 1px solid #ccc;
+    color: #fff;
+}
+.person-det-popup .tab-body1 .active {
+    display: block;
+}
+.person-det-popup .tab-body1 {
+    border: 1px solid #ccc;
+    border-top: 0 none;
+    display: none;
+    font-size: 12px;
+    padding: 10px;
+}
+.tab-container2 {
+    border-bottom: 1px solid #ccc;
+    display: table;
+    width: 100%;
+}
+.tab-container2 .tab-button1 {
+    border: 1px solid #ccc;
+    border-bottom: 0 none;
+    display: table-cell;
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+.tab-container2  .tab-button1.active {
+    background-color: #2288BB;
+    color: #fff;
+}
+.person-det-popup .tab-body2 .active {
+    display: block;
+}
+.person-det-popup .tab-body1 {
+    border: 1px solid #ccc;
+    border-top: 0 none;
+    display: none;
+    font-size: 12px;
+    padding: 10px;
+}

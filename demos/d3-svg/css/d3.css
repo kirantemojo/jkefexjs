@@ -1,0 +1,15 @@
+.d3-wrapper {
+	margin:0 auto;
+	width:1200px;
+	height:650px;
+}
+svg {
+	background: url(../img/clear_sky-subtle_light_blue_texture.jpg) repeat;
+	border:1px solid #000;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 1px 1px 11px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 1px 1px 11px rgba(50, 50, 50, 0.75);
+	box-shadow: 1px 1px 11px rgba(50, 50, 50, 0.75);
+}
