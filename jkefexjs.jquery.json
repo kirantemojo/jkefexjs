@@ -1,0 +1,27 @@
+{
+  "name": "jkefexjs",
+  "title": "jKefexjs",
+  "description": "Jquery Project based on HTML5 & CSS3 , Javascript",
+  "version": "0.1.0",
+  "homepage": "http://kiranml1.github.io/jkefexjs/",
+  "author": {
+    "name": "kiran kumar",
+    "email": "kirankumar.amruthaluri@gmail.com",
+    "url": "http://kiranml1.github.io/jkefexjs/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiranml1/jkefex.git"
+  },
+  "bugs": "https://github.com/kiranml1/jkefex/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://kiranml1.github.io/jkefexjs//blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "1.10+"
+  },
+  "keywords": []
+}

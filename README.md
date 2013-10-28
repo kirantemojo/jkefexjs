@@ -1,3 +1,30 @@
-jKefexJS is the framework developed by Amruthaluri Kiran Kumar, Software Engineer-UI at Hyderabad, India. Presently framework is optimized for only Chrome Browser. It is under active development as Extension for Chrome Experiment by Open Source Technologies.
+# jKefexjs
 
-jKefexJS is upon the stack of Javascript, JQuery, HTML5 Specifications and CSS3 Specifications.Development is in slow Progress by the group.
+Jquery Project based on HTML5 & CSS3 , Javascript
+
+## Getting Started
+Download the [production version][min] or the [development version][max].
+
+[min]: https://raw.github.com/kiranml1/jkefex/master/dist/jkefexjs.min.js
+[max]: https://raw.github.com/kiranml1/jkefex/master/dist/jkefexjs.js
+
+In your web page:
+
+```html
+<script src="jquery.js"></script>
+<script src="dist/jkefexjs.min.js"></script>
+<script>
+jQuery(function($) {
+  $.awesome(); // "awesome"
+});
+</script>
+```
+
+## Documentation
+_(Coming soon)_
+
+## Examples
+_(Coming soon)_
+
+## Release History
+_(Nothing yet)_
