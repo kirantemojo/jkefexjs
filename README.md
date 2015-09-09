@@ -1,6 +1,6 @@
 # jKefexjs
 
-Jquery Project based on HTML5 & CSS3 , Javascript
+HTML5 API jQuery Wrapper
 
 ## Getting Started
 Download the [production version][min] or the [development version][max].
